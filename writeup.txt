@@ -1,6 +1,3 @@
-Di Hou
-N14316306
-
 
 1. Score on development corpus wsj_24.word:
 
