@@ -1,0 +1,15 @@
+Di Hou
+N14316306
+
+
+1. Score on development corpus wsj_24.word:
+
+31431 out of 32853 tags correct
+  accuracy:    95.67
+
+2. Bi-gram Viterbi is used.
+
+3. Unknown words treatments are used to improve performance:
+for example, if the word begins with an upper case character, then tag = "NNP"
+
+4. Log probabilities used to improve performance: for very long sentences, the Java double type used to store viterbi probability will underflow, decreasing accuracy.
